@@ -94,9 +94,9 @@ func (s *ScheduleProducersDatas) GetScheduleProducersHash() Checksum256 {
 
 // OnBlock on block to update datas
 func (s *ScheduleProducersDatas) OnBlock(msg *SignedBlock) error {
-	if msg.NewProducers == nil || msg.BlockNumber() == 1 {
+	if msg.NewProducersV1 == nil || msg.BlockNumber() == 1 {
 		return nil
 	}
 
-	return s.onNewProducers(msg.BlockNumber(), msg.NewProducers.ProducerSchedule)
+	return s.onNewProducers(msg.BlockNumber(), *msg.NewProducersV1)
 }
