@@ -39,7 +39,7 @@ EOSIO light nodes are developed by golang. First, you can install the golang env
 ### 3.1 Compile
 
 ```bash
-git clone https://github.com/eosforce/eos-light-node.git
+git clone https://github.com/fanyang1988/eos-light-node.git
 cd eos-light-node
 go build
 ```

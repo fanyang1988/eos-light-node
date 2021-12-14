@@ -1,7 +1,7 @@
 package eosio
 
 import (
-	"github.com/eosforce/eos-light-node/config"
+	"github.com/fanyang1988/eos-light-node/config"
 )
 
 // Genesis eosforce genesis file struct

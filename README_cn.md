@@ -37,7 +37,7 @@ EOSIO轻节点基于golang开发, 首先可以参照[golang](https://golang.org/
 ### 3.1 编译
 
 ```bash
-git clone https://github.com/eosforce/eos-light-node.git
+git clone https://github.com/fanyang1988/eos-light-node.git
 cd eos-light-node
 go build
 ```
